@@ -2,7 +2,7 @@ const jsonServer = require('json-server');
 const auth = require('json-server-auth');
 const path = require('path');
 const cors = require('cors');
-const job = require('~/cron.js');
+const job = require('./cron.js');
 
 const PORT = process.env.PORT || 5000;
 
